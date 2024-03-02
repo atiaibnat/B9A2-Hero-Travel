@@ -1,0 +1,136 @@
+/* ...styles for header and body section.. */
+header,
+body, .popular-tours, .choose-your-destination{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/* ........navbar......... */
+.text-primary,
+#home {
+    color: rgb(255, 84, 0);
+}
+
+.text-primary {
+    padding-left: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items li {
+    margin: 10px;
+    color: #3C354F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    list-style: none;
+    padding-right: 20px;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+    display: flex;
+}
+
+.nav-title img {
+    margin: 40px 10px 40px 0px;
+}
+
+/* .........banner...... */
+.banner {
+    color: white;
+    height: 600px;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 16px;
+}
+
+.banner-content>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    height: 600px;
+    background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%);
+    text-align: center;
+    border-radius: 16px;
+}
+
+.banner-heading {
+    font-size: 60px;
+    font-weight: 600;
+}
+.banner-description{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 60px;  
+}
+input , select{
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    border-radius: 8px;
+    height: 50px;
+    width: 170px;
+    text-align: left;
+    color: gray;
+}
+.banner-button{
+    display: flex;
+    align-items: center;
+}
+
+.button-list {
+    display: flex;
+    gap: 24px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 15px;
+    
+}
+.banner-content h1{
+    margin-top: 5px;
+       margin-bottom: 30px;
+}
+.btn-primary {
+    background-color: rgb(255, 84, 0) ;
+    padding: 15px 30px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    color: #fff;
+    height: 50px;
+    width: 170px;
+    
+    font-size: 15px;
+    font-weight: 500;
+}
+/* ........Our Popular Tours........ */
+.popular-tours{
+    display: flex;
+    gap: 30px;
+    margin-top: 80px;  
+}
+/* ....Choose Your Destination... */
+.choose-your-destination{
+    margin-top: 80px;   
+}
+.destination-images{
+    margin-top: 80px;
+}
+.destination{
+    text-align: center;
+}
