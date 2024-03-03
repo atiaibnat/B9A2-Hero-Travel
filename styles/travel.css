@@ -1,8 +1,22 @@
+/* ...common style... */
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* ...styles for header and body section.. */
 header,
-body, .popular-tours, .choose-your-destination{
-    margin-left: 80px;
-    margin-right: 80px;
+main,
+.nav-bar,
+.banner,
+.popular-tours,
+.choose-your-destination,
+.why-choose-us,
+.newsletter,
+.next-weekend-deals {
+    margin-left: 55px;
+    margin-right: 55px;
 }
 
 /* ........navbar......... */
@@ -73,13 +87,16 @@ body, .popular-tours, .choose-your-destination{
     font-size: 60px;
     font-weight: 600;
 }
-.banner-description{
+
+.banner-description {
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
-    margin-bottom: 60px;  
+    margin-bottom: 60px;
 }
-input , select{
+
+input,
+select {
     border: none;
     outline: none;
     padding-left: 15px;
@@ -89,7 +106,12 @@ input , select{
     text-align: left;
     color: gray;
 }
-.banner-button{
+
+.fa-solid {
+    padding-right: 10px;
+}
+
+.banner-button {
     display: flex;
     align-items: center;
 }
@@ -99,14 +121,16 @@ input , select{
     gap: 24px;
     background: rgba(255, 255, 255, 0.3);
     padding: 15px;
-    
+
 }
-.banner-content h1{
+
+.banner-content h1 {
     margin-top: 5px;
-       margin-bottom: 30px;
+    margin-bottom: 30px;
 }
+
 .btn-primary {
-    background-color: rgb(255, 84, 0) ;
+    background-color: rgb(255, 84, 0);
     padding: 15px 30px;
     border-radius: 8px;
     outline: none;
@@ -114,23 +138,415 @@ input , select{
     color: #fff;
     height: 50px;
     width: 170px;
-    
     font-size: 15px;
     font-weight: 500;
 }
+
 /* ........Our Popular Tours........ */
-.popular-tours{
+.content {
+    padding-top: -5px;
+
+}
+
+.popular-tours p,
+li {
+    color: rgb(90, 90, 93);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.content h2 {
+    margin-top: 0px;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.content-description {
+    margin-top: 20px;
+}
+
+.content li {
+    margin-top: 5px;
+}
+
+.popular-tours {
     display: flex;
     gap: 30px;
-    margin-top: 80px;  
-}
-/* ....Choose Your Destination... */
-.choose-your-destination{
-    margin-top: 80px;   
-}
-.destination-images{
     margin-top: 80px;
 }
-.destination{
+
+/* ....Choose Your Destination... */
+.choose-your-destination {
+    padding-top: -5px;
+    margin-top: 80px;
+}
+
+.destination-images h2 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.choose-your-destination p {
+    color: rgb(90, 90, 93);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.destination {
     text-align: center;
+}
+
+.destination h2 {
+    margin-top: 0px;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 2px;
+
+}
+
+.maldives {
+    background-image: url(../Images/Rectangle\ 5.png);
+    background: rgba(19, 19, 24, 0.2), url(1);
+
+}
+
+.indonesia {
+    background-image: url(../Images/Rectangle\ 8.png);
+    background: rgba(19, 19, 24, 0.2), url(11);
+}
+
+.first-row {
+    display: flex;
+    gap: 24px;
+
+    width: 100%;
+}
+
+.second-row {
+    display: flex;
+    gap: 24px;
+
+    justify-content: space-between;
+}
+
+.third-row {
+    display: flex;
+    gap: 24px;
+
+    margin-top: 24px;
+}
+
+.maldives,
+.indonesia,
+.srilanka,
+.north-america,
+.kashmir,
+.bangladesh,
+.bandarban {
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.srilanka {
+    background-image: url(../Images/Rectangle\ 6.png);
+    background: rgba(19, 19, 24, 0.2), url(3);
+}
+
+.north-america {
+    background-image: url(../Images/Rectangle\ 7.png);
+    background: rgba(19, 19, 24, 0.2), url(4);
+
+}
+
+.kashmir {
+    background-image: url(../Images/Rectangle\ 9.png);
+    background: rgba(19, 19, 24, 0.2), url(5);
+
+
+}
+
+.bangladesh {
+    background-image: url(../Images/Rectangle\ 11.png);
+    background: rgba(19, 19, 24, 0.2), url(7);
+}
+
+.bandarban {
+    background-image: url(../Images/Rectangle\ 10.png);
+    background: rgba(19, 19, 24, 0.2), url(8);
+}
+
+
+
+/* ..........why choose us........... */
+.why-choose-us img {
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+}
+
+.choose-content {
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.why-choose-us p {
+
+    color: rgb(90, 90, 93);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.choose-content h2 {
+    margin-top: 0px;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.row-one {
+
+    height: 285px;
+    display: flex;
+    gap: 24px;
+    text-align: justify;
+}
+
+.row-two {
+    text-align: justify;
+    height: 285px;
+    box-sizing: border-box;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+    justify-content: center;
+    align-items: center;
+    margin: 24px 300px 80px 300px;
+    padding: 30px;
+
+}
+
+.handpicked {
+    box-sizing: border-box;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px;
+
+}
+
+.world-class {
+    box-sizing: border-box;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+    padding: 30px;
+}
+
+/* ..........Next weekend Deals......... */
+.next-weekend-deals {
+    margin-bottom: 80px;
+
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-description {
+    text-align: center;
+    color: rgb(90, 90, 93);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.courses {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+
+
+}
+
+.courses button {
+    width: 110px;
+    height: 80px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.course {
+    width: 253px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.course .course-banner img {
+    height: 104px;
+    width: 224px;
+}
+
+/* .........newsletter......... */
+.newsletter {
+    height: 420px;
+    margin-bottom: 80px;
+}
+
+.newsletter-content {
+    display: flex;
+    gap: 24px;
+
+}
+
+.newsletter-items {
+    width: 510px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 84, 0);
+    border-radius: 16px;
+}
+
+.newsletter-items input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 395px;
+
+}
+
+.newsletter-items h3 {
+    padding-top: 25px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter-items p {
+    color: rgb(90, 90, 93);
+    margin-bottom: 20px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.newsletter-image img {
+
+    width: 750px;
+}
+
+.newsletter-items hr {
+    margin: 30px 70px 30px 0px;
+    border: 1px solid rgba(19, 19, 24, 0.1);
+}
+
+#subscribe {
+    width: 410px;
+}
+
+.travel {
+    border-radius: 16px;
+    background: rgb(255, 84, 0);
+    width: 220px;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 48%;
+    right: 50%;
+    transform: translate(-50, -50);
+    padding-top: 10px;
+}
+
+.travel span {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.image-wraper {
+    width: 50%;
+    padding-left: 20px;
+}
+
+/* ...........footer......... */
+.footer {
+    background: rgba(19, 19, 24, 0.05);
+
+    margin-top: 130px;
+    padding: 0%;
+}
+
+.footer-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title img {
+    margin: 40px 10px 40px 0px;
+}
+
+.footer-icons i {
+
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-info hr {
+    border: 1px solid rgba(19, 19, 24, 0.1);
+}
+
+.footer-info {
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    padding: 100px 300px;
+
+}
+
+.footer-title {
+
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer-description {
+    color: rgb(90, 90, 93);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.copy {
+    color: rgb(90, 90, 93);
+    text-align: center;
+
+
 }
